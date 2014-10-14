@@ -6,7 +6,7 @@ def main(argv):
 	inputfile = ''
 	
 	if len(sys.argv) != 3:
-		print 'test.py <inputfile> <lines per file>'
+		print('test.py <inputfile> <lines per file>')
 		sys.exit(2)
 	inputfile = argv[1]
 	linesper = int(argv[2])
